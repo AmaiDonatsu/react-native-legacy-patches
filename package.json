@@ -1,0 +1,24 @@
+{
+  "name": "rn-legacy-android-patches",
+  "version": "1.0.0",
+  "description": "Patches and utilities to run legacy React Native projects on modern Android versions (API 34/35+)",
+  "main": "bin/apply.js",
+  "bin": {
+    "rn-legacy-android-patches": "bin/apply.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "react-native",
+    "legacy",
+    "android",
+    "patch",
+    "api34",
+    "api35",
+    "patch-package"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

@@ -1,0 +1,56 @@
+diff --git a/node_modules/react-native-touch-id/.DS_Store b/node_modules/react-native-touch-id/.DS_Store
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-touch-id/TouchID.m b/node_modules/react-native-touch-id/TouchID.m
+index da37735..aa37e2a 100644
+--- a/node_modules/react-native-touch-id/TouchID.m
++++ b/node_modules/react-native-touch-id/TouchID.m
+@@ -18,7 +18,7 @@ RCT_EXPORT_METHOD(isSupported: (NSDictionary *)options
+         passcodeFallback = [RCTConvert NSNumber:options[@"passcodeFallback"]];
+     }
+     
+-    if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
++    if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:&error]) {
+         
+         // No error found, proceed
+         callback(@[[NSNull null], [self getBiometryType:context]]);
+@@ -60,9 +60,9 @@ RCT_EXPORT_METHOD(authenticate: (NSString *)reason
+     }
+ 
+     // Device has TouchID
+-    if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
++    if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:&error]) {
+         // Attempt Authentification
+-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
++        [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication
+                 localizedReason:reason
+                           reply:^(BOOL success, NSError *error)
+          {
+diff --git a/node_modules/react-native-touch-id/android/node_modules-react-native-touch-id-android-react-native-touch-id.iml b/node_modules/react-native-touch-id/android/node_modules-react-native-touch-id-android-react-native-touch-id.iml
+new file mode 100644
+index 0000000..5238dd4
+--- /dev/null
++++ b/node_modules/react-native-touch-id/android/node_modules-react-native-touch-id-android-react-native-touch-id.iml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="NewModuleRootManager">
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/node_modules/react-native-touch-id/android/react-native-touch-id-android-react-native-touch-id.iml b/node_modules/react-native-touch-id/android/react-native-touch-id-android-react-native-touch-id.iml
+new file mode 100644
+index 0000000..5238dd4
+--- /dev/null
++++ b/node_modules/react-native-touch-id/android/react-native-touch-id-android-react-native-touch-id.iml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="NewModuleRootManager">
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file

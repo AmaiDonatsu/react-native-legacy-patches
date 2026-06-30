@@ -1,0 +1,516 @@
+diff --git a/node_modules/react-native-reanimated/android/.classpath b/node_modules/react-native-reanimated/android/.classpath
+new file mode 100644
+index 0000000..4a04201
+--- /dev/null
++++ b/node_modules/react-native-reanimated/android/.classpath
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<classpath>
++	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11/"/>
++	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
++	<classpathentry kind="output" path="bin/default"/>
++</classpath>
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/checksums.lock b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/checksums.lock
+new file mode 100644
+index 0000000..23fdb38
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/checksums.lock differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/md5-checksums.bin b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/md5-checksums.bin
+new file mode 100644
+index 0000000..b9a5dd0
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/md5-checksums.bin differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/sha1-checksums.bin b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/sha1-checksums.bin
+new file mode 100644
+index 0000000..cc294c9
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/8.9/checksums/sha1-checksums.bin differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/dependencies-accessors/gc.properties b/node_modules/react-native-reanimated/android/.gradle/8.9/dependencies-accessors/gc.properties
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/fileChanges/last-build.bin b/node_modules/react-native-reanimated/android/.gradle/8.9/fileChanges/last-build.bin
+new file mode 100644
+index 0000000..f76dd23
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/8.9/fileChanges/last-build.bin differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/fileHashes/fileHashes.lock b/node_modules/react-native-reanimated/android/.gradle/8.9/fileHashes/fileHashes.lock
+new file mode 100644
+index 0000000..5ec9c18
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/8.9/fileHashes/fileHashes.lock differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/8.9/gc.properties b/node_modules/react-native-reanimated/android/.gradle/8.9/gc.properties
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+new file mode 100644
+index 0000000..c736b67
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock differ
+diff --git a/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/cache.properties b/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/cache.properties
+new file mode 100644
+index 0000000..70ae604
+--- /dev/null
++++ b/node_modules/react-native-reanimated/android/.gradle/buildOutputCleanup/cache.properties
+@@ -0,0 +1,2 @@
++#Thu Jun 18 10:07:55 CST 2026
++gradle.version=8.9
+diff --git a/node_modules/react-native-reanimated/android/.gradle/vcs-1/gc.properties b/node_modules/react-native-reanimated/android/.gradle/vcs-1/gc.properties
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-reanimated/android/.project b/node_modules/react-native-reanimated/android/.project
+new file mode 100644
+index 0000000..b03e722
+--- /dev/null
++++ b/node_modules/react-native-reanimated/android/.project
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<projectDescription>
++	<name>react-native-reanimated</name>
++	<comment>Project react-native-reanimated created by Buildship.</comment>
++	<projects>
++	</projects>
++	<buildSpec>
++		<buildCommand>
++			<name>org.eclipse.jdt.core.javabuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++		<buildCommand>
++			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++	</buildSpec>
++	<natures>
++		<nature>org.eclipse.jdt.core.javanature</nature>
++		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
++	</natures>
++	<filteredResources>
++		<filter>
++			<id>1733364224612</id>
++			<name></name>
++			<type>30</type>
++			<matcher>
++				<id>org.eclipse.core.resources.regexFilterMatcher</id>
++				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
++			</matcher>
++		</filter>
++	</filteredResources>
++</projectDescription>
+diff --git a/node_modules/react-native-reanimated/android/.settings/org.eclipse.buildship.core.prefs b/node_modules/react-native-reanimated/android/.settings/org.eclipse.buildship.core.prefs
+new file mode 100644
+index 0000000..1675490
+--- /dev/null
++++ b/node_modules/react-native-reanimated/android/.settings/org.eclipse.buildship.core.prefs
+@@ -0,0 +1,2 @@
++connection.project.dir=../../../android
++eclipse.preferences.version=1
+diff --git a/node_modules/react-native-reanimated/android/bin/build.gradle b/node_modules/react-native-reanimated/android/bin/build.gradle
+new file mode 100644
+index 0000000..21c386c
+--- /dev/null
++++ b/node_modules/react-native-reanimated/android/bin/build.gradle
+@@ -0,0 +1,133 @@
++def safeExtGet(prop, fallback) {
++    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
++}
++
++buildscript {
++    if (project == rootProject) {
++        // The Android Gradle plugin is only required when opening the android folder stand-alone.
++        // This avoids unnecessary downloads and potential conflicts when the library is included as a
++        // module dependency in an application project.
++        repositories {
++            google()
++            jcenter()
++        }
++        dependencies {
++            classpath 'com.android.tools.build:gradle:3.5.2'
++        }
++    }
++}
++
++apply plugin: 'com.android.library'
++apply plugin: 'maven'
++
++android {
++    compileSdkVersion safeExtGet('compileSdkVersion', 28)
++    buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
++    defaultConfig {
++        minSdkVersion safeExtGet('minSdkVersion', 16)
++        targetSdkVersion safeExtGet('targetSdkVersion', 28)
++        versionCode 1
++        versionName "1.0"
++    }
++    lintOptions {
++        abortOnError false
++    }
++}
++
++repositories {
++    mavenLocal()
++    maven {
++        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
++        url "$rootDir/../node_modules/react-native/android"
++    }
++    maven {
++        // Android JSC is installed from npm
++        url "$rootDir/../node_modules/jsc-android/dist"
++    }
++    google()
++    jcenter()
++}
++
++dependencies {
++    //noinspection GradleDynamicVersion
++    implementation 'com.facebook.react:react-native:+'  // From node_modules
++    implementation "androidx.transition:transition:1.1.0"
++}
++
++def configureReactNativePom(def pom) {
++    def packageJson = new groovy.json.JsonSlurper().parseText(file('../package.json').text)
++
++    pom.project {
++        name packageJson.title
++        artifactId packageJson.name
++        version = packageJson.version
++        group = "com.swmansion.reanimated"
++        description packageJson.description
++        url packageJson.repository.baseUrl
++
++        licenses {
++            license {
++                name packageJson.license
++                url packageJson.repository.baseUrl + '/blob/master/' + packageJson.licenseFilename
++                distribution 'repo'
++            }
++        }
++
++        developers {
++            developer {
++                id packageJson.author.username
++                name packageJson.author.name
++            }
++        }
++    }
++}
++
++afterEvaluate { project ->
++
++    task androidJavadoc(type: Javadoc) {
++        source = android.sourceSets.main.java.srcDirs
++        classpath += files(android.bootClasspath)
++        classpath += files(project.getConfigurations().getByName('compile').asList())
++        include '**/*.java'
++    }
++
++    task androidJavadocJar(type: Jar, dependsOn: androidJavadoc) {
++        classifier = 'javadoc'
++        from androidJavadoc.destinationDir
++    }
++
++    task androidSourcesJar(type: Jar) {
++        classifier = 'sources'
++        from android.sourceSets.main.java.srcDirs
++        include '**/*.java'
++    }
++
++    android.libraryVariants.all { variant ->
++        def compileTask
++        if (variant.hasProperty('javaCompileProvider')){
++            compileTask = variant.javaCompileProvider.get()
++        }else{
++            compileTask = variant.javaCompile
++        }
++
++        def name = variant.name.capitalize()
++        task "jar${name}"(type: Jar, dependsOn: compileTask) {
++            from compileTask.destinationDir
++        }
++    }
++
++    artifacts {
++        archives androidSourcesJar
++        archives androidJavadocJar
++    }
++
++    task installArchives(type: Upload) {
++        configuration = configurations.archives
++        repositories.mavenDeployer {
++            // Deploy to react-native-event-bridge/maven, ready to publish to npm
++            repository url: "file://${projectDir}/../android/maven"
++
++            configureReactNativePom pom
++        }
++    }
++}
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/facebook/react/uimanager/UIManagerReanimatedHelper.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/facebook/react/uimanager/UIManagerReanimatedHelper.class
+new file mode 100644
+index 0000000..36f89b1
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/facebook/react/uimanager/UIManagerReanimatedHelper.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/MapUtils.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/MapUtils.class
+new file mode 100644
+index 0000000..c758543
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/MapUtils.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$NativeUpdateOperation.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$NativeUpdateOperation.class
+new file mode 100644
+index 0000000..10ec768
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$NativeUpdateOperation.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$OnAnimationFrame.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$OnAnimationFrame.class
+new file mode 100644
+index 0000000..57c9b11
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager$OnAnimationFrame.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager.class
+new file mode 100644
+index 0000000..705dd7a
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/NodesManager.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule$UIThreadOperation.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule$UIThreadOperation.class
+new file mode 100644
+index 0000000..18c8a7f
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule$UIThreadOperation.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule.class
+new file mode 100644
+index 0000000..41c8860
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedModule.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedPackage.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedPackage.class
+new file mode 100644
+index 0000000..124075b
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/ReanimatedPackage.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/UpdateContext.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/UpdateContext.class
+new file mode 100644
+index 0000000..49dfc5b
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/UpdateContext.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/Utils.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/Utils.class
+new file mode 100644
+index 0000000..bf87569
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/Utils.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/AlwaysNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/AlwaysNode.class
+new file mode 100644
+index 0000000..42ced94
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/AlwaysNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode$CubicBezierInterpolator.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode$CubicBezierInterpolator.class
+new file mode 100644
+index 0000000..83cf78f
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode$CubicBezierInterpolator.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode.class
+new file mode 100644
+index 0000000..c9914c9
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BezierNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BlockNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BlockNode.class
+new file mode 100644
+index 0000000..559f749
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/BlockNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CallFuncNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CallFuncNode.class
+new file mode 100644
+index 0000000..ddbbfcd
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CallFuncNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockNode.class
+new file mode 100644
+index 0000000..7c81092
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStartNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStartNode.class
+new file mode 100644
+index 0000000..b90974b
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStartNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStopNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStopNode.class
+new file mode 100644
+index 0000000..4630767
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockStopNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockTestNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockTestNode.class
+new file mode 100644
+index 0000000..6cc3e72
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode$ClockTestNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode.class
+new file mode 100644
+index 0000000..3bbfcc1
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ClockOpNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ConcatNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ConcatNode.class
+new file mode 100644
+index 0000000..6a3bc19
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ConcatNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CondNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CondNode.class
+new file mode 100644
+index 0000000..6bf5ceb
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/CondNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/DebugNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/DebugNode.class
+new file mode 100644
+index 0000000..5aa86e3
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/DebugNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode$EventMap.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode$EventMap.class
+new file mode 100644
+index 0000000..672418c
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode$EventMap.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode.class
+new file mode 100644
+index 0000000..44a1b49
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/EventNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FinalNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FinalNode.class
+new file mode 100644
+index 0000000..01ce04e
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FinalNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FunctionNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FunctionNode.class
+new file mode 100644
+index 0000000..4c50fac
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/FunctionNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/JSCallNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/JSCallNode.class
+new file mode 100644
+index 0000000..4b8e9c8
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/JSCallNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/Node.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/Node.class
+new file mode 100644
+index 0000000..9289fcb
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/Node.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/NoopNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/NoopNode.class
+new file mode 100644
+index 0000000..7182c17
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/NoopNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$CompOperator.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$CompOperator.class
+new file mode 100644
+index 0000000..90456e0
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$CompOperator.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$Operator.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$Operator.class
+new file mode 100644
+index 0000000..4deb42d
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$Operator.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$ReduceOperator.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$ReduceOperator.class
+new file mode 100644
+index 0000000..45f6626
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$ReduceOperator.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$SingleOperator.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$SingleOperator.class
+new file mode 100644
+index 0000000..f04ed13
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode$SingleOperator.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode.class
+new file mode 100644
+index 0000000..73cb5cd
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/OperatorNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ParamNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ParamNode.class
+new file mode 100644
+index 0000000..08de408
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ParamNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/PropsNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/PropsNode.class
+new file mode 100644
+index 0000000..32356f1
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/PropsNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/SetNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/SetNode.class
+new file mode 100644
+index 0000000..6db15ca
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/SetNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/StyleNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/StyleNode.class
+new file mode 100644
+index 0000000..a5edc9d
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/StyleNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$AnimatedTransformConfig.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$AnimatedTransformConfig.class
+new file mode 100644
+index 0000000..c0cb23d
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$AnimatedTransformConfig.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$StaticTransformConfig.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$StaticTransformConfig.class
+new file mode 100644
+index 0000000..d7c4bb3
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$StaticTransformConfig.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$TransformConfig.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$TransformConfig.class
+new file mode 100644
+index 0000000..9d0bdd7
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode$TransformConfig.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode.class
+new file mode 100644
+index 0000000..caa3a42
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/TransformNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ValueNode.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ValueNode.class
+new file mode 100644
+index 0000000..a17ac7c
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/nodes/ValueNode.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/ChangeTransition.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/ChangeTransition.class
+new file mode 100644
+index 0000000..46705b7
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/ChangeTransition.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/SaneSidePropagation.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/SaneSidePropagation.class
+new file mode 100644
+index 0000000..326e3da
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/SaneSidePropagation.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/Scale.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/Scale.class
+new file mode 100644
+index 0000000..ef957d5
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/Scale.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionModule.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionModule.class
+new file mode 100644
+index 0000000..11fb37d
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionModule.class differ
+diff --git a/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionUtils.class b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionUtils.class
+new file mode 100644
+index 0000000..ef8a654
+Binary files /dev/null and b/node_modules/react-native-reanimated/android/bin/src/main/java/com/swmansion/reanimated/transitions/TransitionUtils.class differ
+diff --git a/node_modules/react-native-reanimated/android/build.gradle b/node_modules/react-native-reanimated/android/build.gradle
+index 21c386c..9c0fbd8 100644
+--- a/node_modules/react-native-reanimated/android/build.gradle
++++ b/node_modules/react-native-reanimated/android/build.gradle
+@@ -9,23 +9,23 @@ buildscript {
+         // module dependency in an application project.
+         repositories {
+             google()
+-            jcenter()
++            mavenCentral()
+         }
+         dependencies {
+-            classpath 'com.android.tools.build:gradle:3.5.2'
++            classpath 'com.android.tools.build:gradle:7.0.4'
+         }
+     }
+ }
+ 
+ apply plugin: 'com.android.library'
+-apply plugin: 'maven'
++apply plugin: 'maven-publish'
+ 
+ android {
+-    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+-    buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
++    compileSdkVersion safeExtGet('compileSdkVersion', 31)
++    buildToolsVersion safeExtGet('buildToolsVersion', '30.0.3')
+     defaultConfig {
+-        minSdkVersion safeExtGet('minSdkVersion', 16)
+-        targetSdkVersion safeExtGet('targetSdkVersion', 28)
++        minSdkVersion safeExtGet('minSdkVersion', 21)
++        targetSdkVersion safeExtGet('targetSdkVersion', 31)
+         versionCode 1
+         versionName "1.0"
+     }
+@@ -87,17 +87,17 @@ afterEvaluate { project ->
+     task androidJavadoc(type: Javadoc) {
+         source = android.sourceSets.main.java.srcDirs
+         classpath += files(android.bootClasspath)
+-        classpath += files(project.getConfigurations().getByName('compile').asList())
++        classpath += files(project.getConfigurations().getByName('releaseCompileClasspath').asList())
+         include '**/*.java'
+     }
+ 
+     task androidJavadocJar(type: Jar, dependsOn: androidJavadoc) {
+-        classifier = 'javadoc'
++        archiveClassifier = 'javadoc'
+         from androidJavadoc.destinationDir
+     }
+ 
+     task androidSourcesJar(type: Jar) {
+-        classifier = 'sources'
++        archiveClassifier = 'sources'
+         from android.sourceSets.main.java.srcDirs
+         include '**/*.java'
+     }
+@@ -121,13 +121,14 @@ afterEvaluate { project ->
+         archives androidJavadocJar
+     }
+ 
+-    task installArchives(type: Upload) {
+-        configuration = configurations.archives
+-        repositories.mavenDeployer {
+-            // Deploy to react-native-event-bridge/maven, ready to publish to npm
+-            repository url: "file://${projectDir}/../android/maven"
+-
+-            configureReactNativePom pom
+-        }
+-    }
++    // Commented out - not needed for app compilation and incompatible with Gradle 7+
++    // task installArchives(type: Upload) {
++    //     configuration = configurations.archives
++    //     repositories.mavenDeployer {
++    //         // Deploy to react-native-event-bridge/maven, ready to publish to npm
++    //         repository url: "file://${projectDir}/../android/maven"
++    //
++    //         configureReactNativePom pom
++    //     }
++    // }
+ }

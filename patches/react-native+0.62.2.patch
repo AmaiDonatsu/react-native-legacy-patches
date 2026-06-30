@@ -1,0 +1,42 @@
+diff --git a/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m b/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
+index 21f1a06..a3a4c38 100644
+--- a/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
++++ b/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
+@@ -272,9 +272,11 @@ static NSUInteger RCTDeviceFreeMemory() {
+ 
+ - (void)displayLayer:(CALayer *)layer
+ {
+-  if (_currentFrame) {
++ if (_currentFrame) {
+     layer.contentsScale = self.animatedImageScale;
+     layer.contents = (__bridge id)_currentFrame.CGImage;
++  } else {
++    [super displayLayer:layer];
+   }
+ }
+ 
+diff --git a/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/DevSupportManagerImpl.java b/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/DevSupportManagerImpl.java
+index 5dd361f..e255897 100644
+--- a/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/DevSupportManagerImpl.java
++++ b/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/DevSupportManagerImpl.java
+@@ -1196,7 +1196,11 @@ public class DevSupportManagerImpl
+       if (!mIsReceiverRegistered) {
+         IntentFilter filter = new IntentFilter();
+         filter.addAction(getReloadAppAction(mApplicationContext));
+-        mApplicationContext.registerReceiver(mReloadAppBroadcastReceiver, filter);
++        if (android.os.Build.VERSION.SDK_INT >= 34) {
++          mApplicationContext.registerReceiver(mReloadAppBroadcastReceiver, filter, 2); // 2 is Context.RECEIVER_EXPORTED
++        } else {
++          mApplicationContext.registerReceiver(mReloadAppBroadcastReceiver, filter);
++        }
+         mIsReceiverRegistered = true;
+       }
+ 
+diff --git a/node_modules/react-native/scripts/.packager.env b/node_modules/react-native/scripts/.packager.env
+new file mode 100644
+index 0000000..21a13cf
+--- /dev/null
++++ b/node_modules/react-native/scripts/.packager.env
+@@ -0,0 +1 @@
++export RCT_METRO_PORT=8081
+\ No newline at end of file
