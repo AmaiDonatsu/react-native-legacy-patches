@@ -1,4 +1,4 @@
-# rn-legacy-android-patches
+# react-native-legacy-patches
 
 A zero-dependency CLI utility to apply essential compatibility patches and code modifications to legacy React Native projects (e.g. React Native `0.62.x` and packages like `reanimated` v1, `touch-id`, `widget-center`) to compile and run on modern Android versions (Android 14+ / API 34 & 35).
 
@@ -19,26 +19,26 @@ You can run this tool directly without installation using `npx`:
 ### 1. List Available Patches
 See which npm packages have compatibility patches available:
 ```bash
-npx rn-legacy-android-patches --list
+npx react-native-legacy-patches --list
 ```
 
 ### 2. Apply a Specific Patch
 Apply the patch for a single library (e.g. `react-native-reanimated`):
 ```bash
-npx rn-legacy-android-patches --patch react-native-reanimated
+npx react-native-legacy-patches --patch react-native-reanimated
 ```
 *This copies the `.patch` file into your local `patches/` folder and applies it using `patch-package`.*
 
 ### 3. Apply All Patches
 Copy and apply all legacy compatibility patches at once:
 ```bash
-npx rn-legacy-android-patches --all
+npx react-native-legacy-patches --all
 ```
 
 ### 4. Patch `MainApplication.java` (Android 14+ Compatibility)
 Automatically scans your project's `android/` directory and overrides `registerReceiver` in your `MainApplication.java` to prevent runtime `SecurityException` crashes:
 ```bash
-npx rn-legacy-android-patches --patch-app
+npx react-native-legacy-patches --patch-app
 ```
 
 ---
@@ -48,12 +48,12 @@ npx rn-legacy-android-patches --patch-app
 If you want to install it as a development dependency:
 
 ```bash
-npm install --save-dev rn-legacy-android-patches
+npm install --save-dev react-native-legacy-patches
 ```
 
 Then add it to your package script or run locally:
 ```bash
-npx rn-legacy-android-patches --all
+npx react-native-legacy-patches --all
 ```
 
 ## Contributing / Adding New Patches

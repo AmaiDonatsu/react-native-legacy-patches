@@ -36,10 +36,10 @@ function getAvailablePatches() {
 
 function printUsage() {
   console.log(`
-rn-legacy-android-patches - CLI Tool to apply compatibility patches for legacy React Native projects
+rn-legacy-patches - CLI Tool to apply compatibility patches for legacy React Native projects
 
 Usage:
-  npx rn-legacy-android-patches [options]
+  npx react-native-legacy-patches [options]
 
 Options:
   --list           List all legacy patches available in this utility
@@ -50,10 +50,10 @@ Options:
   --help           Show this help menu
 
 Examples:
-  npx rn-legacy-android-patches --list
-  npx rn-legacy-android-patches --patch react-native-reanimated
-  npx rn-legacy-android-patches --all
-  npx rn-legacy-android-patches --patch-app
+  npx react-native-legacy-patches --list
+  npx react-native-legacy-patches --patch react-native-reanimated
+  npx react-native-legacy-patches --all
+  npx react-native-legacy-patches --patch-app
 `);
 }
 
